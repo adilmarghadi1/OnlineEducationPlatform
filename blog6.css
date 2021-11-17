@@ -332,3 +332,12 @@ input {
      margin: 20px auto;
      width: 80%;
  }
+
+
+ @media screen and (max-width:700px)
+{
+    .headertop h1 {
+    padding-top: 100px;
+
+ }
+}
