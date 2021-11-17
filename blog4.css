@@ -1,0 +1,334 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: #1C1E27;
+}
+
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2F2E32;
+}
+
+.vl {
+    border-left: 1px solid #590d22;
+    margin-right: 20px;
+    height:35px;
+  }
+.nav-item1 i, a {
+    color: #e0fbfc;
+    font-size: 14px;
+}
+
+.nav-item1 a{
+    font-family: 'Roboto', sans-serif;
+}
+.right {
+    display: flex;
+    margin-right: 190px;
+}
+
+.nav1 i {
+    padding-right: 3px;
+}
+.left {
+    margin-left: 120px;
+}
+
+.center {
+    display: flex;
+    margin-right: 50px;
+}
+.nav-menu1 {
+    display: flex;
+    margin-top: 4px;
+  
+}
+
+.nav-item1 {
+    padding:10px;
+    list-style: none;
+}
+
+.nav-item1 a {
+    text-decoration: none;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+
+.logo a {
+    text-decoration: none;
+    margin-left:90px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2em;
+    color: #dfe7fd;
+    /* margin-top: -17px; */
+    font-family: 'Courgette', cursive;
+
+    
+
+}
+
+.design {
+    color: #0077b6;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    line-height: 90px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 150px;
+    
+}
+
+.nav-item {
+    padding-left: 50px;
+    display: flex;
+    
+}
+
+
+.nav-link {
+    color: #dfe7fd;
+}
+.nav-item a {
+    font-size: 17px;
+    text-decoration: none;
+    color:#dfe7fd;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    width: 25px;
+    height: 4px;
+    background-color: black;
+    display: flex;
+    margin:4px auto;
+}
+
+
+
+
+@media screen and (max-width:1050px)
+{
+    .nav1 {
+        display: none;
+    }
+}
+@media screen and (max-width:1210px)
+{
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        z-index: 1000;
+        background-color: #1C1E27;
+        position: fixed;
+        transition: all 0.4s ease-out;
+        top:-100%;
+        
+    }
+
+    .nav-menu.active {
+        top: 0;
+    }
+
+    .nav-item a {
+        
+        color: #ffffff;
+    }
+    .nav-item {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    
+
+    .hamburger {
+        z-index: 1000;
+        margin-top: 30px;
+        margin-right: 15px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2)
+    {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+}
+
+
+
+    .logo a {
+        color:#1d3557;
+    }
+
+    .nav-item a {
+        color: #dfe7fd;
+        /* margin-top: 20px; */
+        margin-top: 20px;
+        margin:0px
+    }
+
+    .logo a{
+        margin-left: 20px;
+    }
+
+
+
+
+
+
+
+footer {
+    background-color: #001219;
+    padding:150px;
+}
+
+.center11 {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    color: #f8edeb;
+    font-family: Roboto;
+    border-bottom: 0.8px solid #fefae0;
+    padding-bottom: 40px;
+}
+
+input {
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+    padding:12px;
+    background-color: transparent;
+    margin-top: 40px;
+}
+
+.center22 h1 {
+    font-size: 2.1em;
+    color: #e8e8e4;
+    text-align: center;
+    margin-top: 60px;
+    font-family: Roboto;
+
+}
+
+.icons {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+}
+
+.icons i {
+    padding: 10px;
+    color: rgb(161, 96, 96);
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.center33 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+}
+
+.center33 a {
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: Roboto;
+    padding:15px;
+    color: #f8edeb;
+}
+
+ 
+ @media screen and (max-width:500px)
+ {
+     .center11 {
+         font-size: .8em;
+         margin-left: -14px;
+     }
+
+     input {
+         font-size: 16px;
+         margin-left: -40px;
+     }
+
+     .center22 h1{
+         font-size: 1em;
+     }
+ }
+ 
+
+
+ .headertop {
+     background-image: url("https://gaviaspreview.com/wp/zilom/wp-content/uploads/2020/12/breadcrumb.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 50vh;
+ }
+
+ .headertop h1 {
+    width: 80%;
+    font-weight: 800;
+    margin:0 auto;
+    font-size: 2.5em;
+    color: white;
+    padding-top: 150px;
+
+ }
+
+
+
+
+ .boxx p {
+     color: #272a30;
+     font-size: 18px;
+     width: 80%;
+     padding-top: 25px;
+     line-height: 1.6;
+     margin: 0 auto;
+     letter-spacing: 1px;
+ }
+
+ .boxx img {
+     padding-top: 60px;
+     display: block;
+     margin: 20px auto;
+     width: 80%;
+ }
