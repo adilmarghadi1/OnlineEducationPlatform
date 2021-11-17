@@ -439,3 +439,16 @@ button {
             display: block;
         }
 }
+
+
+ .section1 h2 {
+     text-align: center;
+     font-family: Roboto;
+     font-size: 1em;
+     margin-top: 30px;
+ }
+
+ .section1 a {
+     text-decoration: none;
+     color: #03045e;
+ }
