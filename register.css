@@ -209,19 +209,7 @@
 
 
 
-.boxxx {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    place-items: center;
-    row-gap: 10px;
-     
-}
 
-
-.boxxx img{
-    width: 85%;
-    border-radius: 20px;
-}
 footer {
     background-color: #001219;
     padding:150px;
@@ -237,7 +225,7 @@ footer {
     padding-bottom: 40px;
 }
 
-input {
+footer input {
     border-radius: 12px;
     font-size: 22px;
     font-weight: 500;
@@ -306,85 +294,148 @@ input {
  }
  
 
-
- .headertop {
-     background-image: url("https://gaviaspreview.com/wp/zilom/wp-content/uploads/2020/12/breadcrumb.jpg");
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
-     height: 50vh;
+.box1 img {
+    height: 450px;
+    width: 400px;
+    margin-top: 50px;
+}
+ .top {
+    width:80%;
+    margin: 0 auto;
+    height: 700px;
+    background-color: #EFF2F5;
+    margin-top:50px;
+    margin-bottom: 50px;
+    border-radius: 40px;
  }
 
- .headertop h1 {
-    width: 80%;
-    font-weight: 800;
-    margin:0 auto;
-    font-size: 2.5em;
-    color: white;
-    padding-top: 150px;
-
+ .box2 h1{
+     font-size: 2em;
+     color: #001219;
+    
  }
-
-
-
-
- 
-
-
- .box11 h5 {
-     font-size: 1.2em;
-     font-family: Roboto;
-     color: #7400b8;
-     margin: 5%;
- }
-
-
-
- .box11 h1 {
-     font-size: 40px;
-     margin:20px;     
- }
- .box22 {
-     display: flex;
-     justify-content: space-around;
-     flex-wrap: wrap;
- }
-
- .box22 p {
-     line-height: 1.7;
-     opacity: 0.6;
-     font-size: 18px;
-     margin-left: 10px;
- }
-
-
- .aa {
-     display: flex;
-     justify-content: space-around;
-     margin-left: 145px;
+ .section1 {
      
+     display: grid;
+     place-items: center;
+     grid-template-columns: repeat(2, 1fr);
+
  }
 
- .aa:hover {
-     opacity: 0.6;
-     transition: all 0.3s ease-out;
+
+ @media screen and (max-width:950px)
+ {
+     .section1 {
+         grid-template-columns: repeat(1, 1fr);
+     }
  }
- .aa  a{
-     background-color: rgb(38, 38, 230);
-     font-size: 17px;
-     border-radius: 12px;
-     color: white;
-     text-decoration: none;
-     padding:15px 22px;
+ .flex11 {
+     display: flex;
+     flex-wrap: wrap;
+
+ }
+
+ .flex11 a{
+    margin-right: 20px;
     margin-top: 20px;
+    text-decoration: none;
+
+    padding:14px 45px;
+    border-radius: 12px;
+    border: none;
+    background-color: #4361ee;
+    font-size: 1.1em;
+    font-family: Roboto;
+ }
+
+ .box2 h1 {
+     padding:33px 0;
+     font-family: Roboto;
+ }
+
+
+ .box2 p {
+     font-size: 17px;
+     font-family: Roboto;
+ }
+
+form input {
+    width: 90%;
+font-size: 16px;
+border-radius: 4px;
+border: 1px solid #dcdfe5;
+    background: #fff;
+    padding: 10px;
+
+}
+
+form p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Roboto;
+    color: black;
+    opacity: 0.8;
+    margin-bottom: 4px;
+}
+
+
+button {
+    padding:11px 30px;
+    background-color: #4361ee;
+    color: #9bf6ff;
+    border:none;
+    margin-top: 12px;
+    font-size: 18px;
+    font-family: Roboto;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width:999px)
+{
+    .top {
+        background: #caf0f8;
     }
 
-    @media screen and (max-width:1145px)
-    {
-        .aa {
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            margin-left: 0;
-        }
+    footer {
+        margin-top: 800px;
     }
+}
+
+@media screen and (max-width:500px)
+{
+
+    form input {
+        margin-left: 0;
+        margin:0;
+    }
+
+    .box1 img {
+        width: 70%;
+        margin:0 auto;
+    }
+        .box2 h1 {
+            font-size: 1em;
+        }
+        .box2 p {
+            font-size: 15px;
+            text-align: start;
+        }
+
+        .flex11 {
+            margin-right: 20px;
+            margin-top: 20px;
+        
+            padding:14px 20px;
+            font-size: 1em;
+            font-family: Roboo;
+        }
+        form input {
+            width: 90%;
+        }
+
+        button {
+            display: block;
+        }
+}
