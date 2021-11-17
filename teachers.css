@@ -240,142 +240,107 @@
     .logo a{
         margin-left: 20px;
     }
+
+
+
+
+
+
+.sectionheader1 {
+    background-image: url("http://learnify.axiomthemes.com/wp-content/uploads/2020/05/image-45-copyright.jpg");
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
 }
 
 
-
-
-
-
-
-.section3 {
-    padding-top: 20px;
-}
-.section3 h1 {
-    text-align: center;
-    font-size:2.7em;
-    margin-bottom: 80px;
-    margin-top: 120px;
-    color: #1C1E27;
-    
-
-}
-
-
-
-
-
-.box3 {
-
-    
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.sectionheader1 h1 {
+    display: flex;
     justify-content: center;
-    place-items: center;
-    margin:0 50px;
-    row-gap: 30px;
+    padding-top: 190px;
+    font-size: 3.2em;
+    color: white !important;
+    opacity: 1;
+}
+
+.sectionheader1 h4 {
+   display: flex;
+   justify-content: center;
+   letter-spacing: 1px;
+   font-size: 1em;
+   color:white !important;
+   margin-top: 40px;
+   word-spacing: 12px;
+   font-family: Roboto;
 }
 
 
 
 
-.box4:hover {
-    transition: all 0.3s ease-out;
-        box-shadow: 1px 8px 20px grey;
-       -webkit-transition:  box-shadow .6s ease-in;
-}
 
-/* @media screen and (max-width) */
-
-
-.image2 img {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    width: 300px;
-}
-
-.top1 {
-    display: flex;
-    justify-content: space-between;
- position: absolute;
- top:10px;
- padding-left: 10px;
-}
-
-
-.bottom1 img {
-    width: 38px;
-    height: 38px;
-    margin-top: -50px;
-    margin-left: 26px;
-    border-radius: 50%;
-}
-.box4 {
-    width: 300px;
-    height: 450px;
-    border-radius: 12px;
-    background-color: #EFF2F5;
-
-}
-
-
-.bottom1 p {
-    font-size:17px;
-    color:#0077b6;
-    text-align: start;
-    padding-left: 20px;
-    padding-top:10px;
-    padding-bottom: 27px;
-}
-
-.padd  {
+.section9 p {
     text-align: center;
-    padding-top: 40px;
-    padding-left: 25px;
-    padding-right: 25px;
+    font-size: 19px;
+    font-family: Roboto;
+    color: #7209b7;
+    margin-top:40px;
+}
+
+.section9 h1 {
+    letter-spacing: 3px;
+    font-size: 2.9em;
+    text-align: center;
+    padding-top: 30px;
+    color: #03071e;
+}
+ 
+
+
+
+
+ 
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin:65px;
+}
+
+.team img {
+    flex: 1 1 180px;
+    width: 300px;
+    height: 370px;
+    margin:4px;
     
 }
 
-.padd a {
-    font-weight: 800;
-    line-height: 1.6;
-    color: #2b2d42;
-    margin: 20px;
-    font-size:1.1em;
-    font-family: Roboto, sans-serif;
-    text-decoration: none;
-    margin:20px auto;
-}
-
-.fl {
-    display: flex;
-    justify-content: space-between;
-}
-
-.fl h4 {
-    padding-right: 10px;
-    padding-top: 10px;
-    font-size:1em;
-    color: #590d22;
+.first1 h3 {
+    color: #1F242E;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-left: 3px;
     font-family: Roboto;
+    padding-top: 16px;
 }
 
-.sub {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-}
-
-.lessons {
-    font-size: 13px;
+.first1 h4 {
     font-family: Roboto;
-    color:#3d5a80;
+    padding-left: 3px;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #6C6F73;
 }
 
-.sub2 {
-    font-size: 13px;
-    font-family: Roboto;
-    color:#3d5a80;
+.team img:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+      filter: brightness(50%)
+
 }
 
 
@@ -463,33 +428,5 @@ input {
          font-size: 1em;
      }
  }
-
-
- .sectionheader1 {
-     background-image: url("http://learnify.axiomthemes.com/wp-content/uploads/2020/05/image-35-copyright.jpg");
-     background-repeat: no-repeat;
-     height: 60vh;
-     background-size: cover;
-     background-position: center;
- }
  
 
- .sectionheader1 h1 {
-     display: flex;
-     justify-content: center;
-     padding-top: 190px;
-     font-size: 3.2em;
-     color: white !important;
-     opacity: 1;
- }
-
- .sectionheader1 h4 {
-    display: flex;
-    justify-content: center;
-    letter-spacing: 1px;
-    font-size: 1em;
-    color:white !important;
-    margin-top: 40px;
-    word-spacing: 12px;
-    font-family: Roboto;
- }
